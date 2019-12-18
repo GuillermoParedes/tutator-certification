@@ -1,0 +1,22 @@
+{
+  "name": "certification",
+  "version": "1.0.0",
+  "description": "Tutator Certification",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuillermoParedes/tutator-certification.git"
+  },
+  "author": "GDDEV <gdavid.ptorrez@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GuillermoParedes/tutator-certification/issues"
+  },
+  "homepage": "https://github.com/GuillermoParedes/tutator-certification#readme",
+  "dependencies": {
+    "axios": "^0.19.0"
+  }
+}

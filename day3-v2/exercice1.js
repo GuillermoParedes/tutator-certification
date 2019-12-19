@@ -38,10 +38,7 @@ const separateName$ = Rxjs.of(myName.split('')).pipe(
             accumulate.consonants = [...accumulate.consonants, [current]]
         }
         return accumulate;
-    }, {
-        vowals: [],
-        consonants: []
-    })
+    }, objSeparateString)
 )
 
 

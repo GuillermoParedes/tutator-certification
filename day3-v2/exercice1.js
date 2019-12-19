@@ -34,6 +34,7 @@ const separateName$ = Rxjs.of(myName.split('')).pipe(
         if (isVowelRegEx(current)) {    
             accumulate.vowals = [...accumulate.vowals, [current]]
         } else {
+
             accumulate.consonants = [...accumulate.consonants, [current]]
         }
         return accumulate;

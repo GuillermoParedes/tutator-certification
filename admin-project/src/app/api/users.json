@@ -1,0 +1,141 @@
+[{
+  "id": 1,
+  "first_name": "Randie",
+  "last_name": "Ida",
+  "email": "rida0@dot.gov",
+  "gender": "Female",
+  "university": "International University of Novi Pazar"
+}, {
+  "id": 2,
+  "first_name": "Daryl",
+  "last_name": "Ney",
+  "email": "dney1@bigcartel.com",
+  "gender": "Female",
+  "university": "Sierra Nevada College"
+}, {
+  "id": 3,
+  "first_name": "Loydie",
+  "last_name": "Burnhams",
+  "email": "lburnhams2@soundcloud.com",
+  "gender": "Male",
+  "university": "University of Macedonia"
+}, {
+  "id": 4,
+  "first_name": "Padget",
+  "last_name": "Fallowes",
+  "email": "pfallowes3@icio.us",
+  "gender": "Male",
+  "university": "College of Aeronautics"
+}, {
+  "id": 5,
+  "first_name": "Vaughan",
+  "last_name": "Rebichon",
+  "email": "vrebichon4@example.com",
+  "gender": "Male",
+  "university": "Universidad Pedagógica Nacional, Unidad León"
+}, {
+  "id": 6,
+  "first_name": "Stephani",
+  "last_name": "Ricardin",
+  "email": "sricardin5@reddit.com",
+  "gender": "Female",
+  "university": "University of the Punjab, Gujranwala Campus"
+}, {
+  "id": 7,
+  "first_name": "Lane",
+  "last_name": "Guillot",
+  "email": "lguillot6@plala.or.jp",
+  "gender": "Female",
+  "university": "Academia Nacional Superior de Orquesta"
+}, {
+  "id": 8,
+  "first_name": "Herrick",
+  "last_name": "Hazeman",
+  "email": "hhazeman7@wikia.com",
+  "gender": "Male",
+  "university": "Netaji Subhas Inst of Technology"
+}, {
+  "id": 9,
+  "first_name": "Laurie",
+  "last_name": "Truran",
+  "email": "ltruran8@cocolog-nifty.com",
+  "gender": "Male",
+  "university": "Universitas Katolik Parahyangan"
+}, {
+  "id": 10,
+  "first_name": "Rosemaria",
+  "last_name": "Wofenden",
+  "email": "rwofenden9@nationalgeographic.com",
+  "gender": "Female",
+  "university": "Instituts Supérieurs des Etudes Technologiques"
+}, {
+  "id": 11,
+  "first_name": "Leroi",
+  "last_name": "Pennells",
+  "email": "lpennellsa@cbc.ca",
+  "gender": "Male",
+  "university": "St. Petersburg State University of Culture and Arts"
+}, {
+  "id": 12,
+  "first_name": "Genvieve",
+  "last_name": "Sambells",
+  "email": "gsambellsb@desdev.cn",
+  "gender": "Female",
+  "university": "Universidad Centroamericana"
+}, {
+  "id": 13,
+  "first_name": "Davida",
+  "last_name": "Yakovitch",
+  "email": "dyakovitchc@bloglovin.com",
+  "gender": "Female",
+  "university": "Anderson College"
+}, {
+  "id": 14,
+  "first_name": "Jefferson",
+  "last_name": "Pierrepont",
+  "email": "jpierrepontd@oaic.gov.au",
+  "gender": "Male",
+  "university": "National Aviation Univesity"
+}, {
+  "id": 15,
+  "first_name": "Neille",
+  "last_name": "McNae",
+  "email": "nmcnaee@ifeng.com",
+  "gender": "Female",
+  "university": "Jeonju University"
+}, {
+  "id": 16,
+  "first_name": "Remus",
+  "last_name": "Paoloni",
+  "email": "rpaolonif@google.nl",
+  "gender": "Male",
+  "university": "Dar Al-Uloom Colleges"
+}, {
+  "id": 17,
+  "first_name": "Cindelyn",
+  "last_name": "Wittke",
+  "email": "cwittkeg@technorati.com",
+  "gender": "Female",
+  "university": "Universidad Nacional de Misiones"
+}, {
+  "id": 18,
+  "first_name": "Sarita",
+  "last_name": "Woffinden",
+  "email": "swoffindenh@seesaa.net",
+  "gender": "Female",
+  "university": "Tokyo University"
+}, {
+  "id": 19,
+  "first_name": "Artemis",
+  "last_name": "Lindblom",
+  "email": "alindblomi@csmonitor.com",
+  "gender": "Male",
+  "university": "Indian Institute of Technology, Hyderabad"
+}, {
+  "id": 20,
+  "first_name": "Jorey",
+  "last_name": "Heliet",
+  "email": "jhelietj@epa.gov",
+  "gender": "Female",
+  "university": "Franciscan School of Theology"
+}]

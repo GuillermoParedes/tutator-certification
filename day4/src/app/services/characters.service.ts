@@ -18,4 +18,16 @@ export class CharactersService {
   getAll() {
     return this.httpClient.get(`${environment.api}/${this.model}`);
   }
+
+
+  /**
+   * @description Sum the array of numbers
+   * @param:Array<number> appearance
+   */
+  getSumarray(value) {
+    return value.slice('').reduce((acc, current) => {
+      return acc + current;
+    }, 0);
+  }
+
 }

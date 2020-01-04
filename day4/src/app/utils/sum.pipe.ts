@@ -11,7 +11,7 @@ export class SumPipe implements PipeTransform {
         return acc + current;
       }, 0);
     } else {
-      return 666;
+      return 'S/R wo/';
     }
   }
 

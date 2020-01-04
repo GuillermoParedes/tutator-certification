@@ -20,9 +20,17 @@
     <p class="mb-1">
       Appearance: {{character?.appearance | json}}
     </p>
+
+
     <p class="mb-1">
-      Sum of Appearance: {{character?.appearance | sum}}
+      Sum of Appearance only Pipe: {{character?.appearance | sum}}
     </p>
+    <p class="mb-1">
+      Sum of Appearance with Service into Pipe: {{character?.appearance | sumWithService}}
+    </p>
+
+    <label for="">Sum of Appearence with service into pipe:</label>
+    <app-badge [content]="character?.appearance"></app-badge>
     </div>
   </div>
 

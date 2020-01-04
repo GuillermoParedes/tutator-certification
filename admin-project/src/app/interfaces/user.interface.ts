@@ -5,6 +5,7 @@ export interface PersonInterface {
   email: string;
   gender: string;
   university: string;
+  picture: string;
 }
 
 

@@ -1,8 +1,9 @@
-<div class="card" style="width: 18rem;">
+<div class="card m-2" style="width: 18rem;">
+  <img class="card-img-top" [src]="data?.picture" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title">{{data?.first_name }}</h5>
   <h6 class="card-subtitle mb-2 text-muted">{{data?.university}}</h6>
-    <p class="card-text">{{data?.gender}}</p>
+    <p class="card-text alert " role="alert" appGender [gender]="data?.gender">{{data?.gender}}</p>
     <a href="#" class="card-link">{{data?.email}}</a>
   </div>
 </div>

@@ -1,1 +1,14 @@
-<p>list works!</p>
+<div class="row">
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <span class="input-group-text" id="basic-addon1" (click)="clearFilter()">Clear Search</span>
+    </div>
+    <input id='searchUser' [(ngModel)]="searchText" type="text" class="form-control" placeholder="Search an user" aria-label="Search an user" aria-describedby="basic-addon1">
+    <span class="filter-clear" *ngIf="searchText.length>0" >X</span>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm" *ngFor="let user of users | filter : searchText">
+    <app-card [data]="user"></app-card>
+  </div>
+</div>

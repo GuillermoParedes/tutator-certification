@@ -4,6 +4,9 @@ import { Routes, RouterModule } from '@angular/router';
 import { UserComponent } from './user.component';
 import { ListComponent } from './list/list.component';
 import { FormsModule } from '@angular/forms';
+import { CardComponent } from 'src/app/components/card/card.component';
+import { GenderDirective } from 'src/app/directives/gender.directive';
+import { FilterPipe } from 'src/app/utils/filter.pipe';
 
 
 const routes: Routes = [
@@ -27,7 +30,10 @@ const routes: Routes = [
 @NgModule({
   declarations: [
     UserComponent,
-    ListComponent
+    ListComponent,
+    CardComponent,
+    GenderDirective,
+    FilterPipe
   ],
   imports: [
     CommonModule,

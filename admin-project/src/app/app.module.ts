@@ -7,16 +7,15 @@ import { AppComponent } from './app.component';
 
 import { NgxSpinnerModule } from 'ngx-spinner';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
-import { NavbarComponent } from './components/navbar/navbar.component';
-import { CardComponent } from './components/card/card.component';
-
-
+import { NavbarComponent } from './shared/navbar/navbar.component';
+import { GenderDirective } from './directives/gender.directive';
+import { FilterPipe } from './utils/filter.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    CardComponent,
+
   ],
   imports: [
     BrowserModule,

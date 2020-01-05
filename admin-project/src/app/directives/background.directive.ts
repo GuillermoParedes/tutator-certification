@@ -6,10 +6,10 @@ import { Directive, ElementRef, Input, OnInit, HostBinding, Renderer2 } from '@a
 
 export class BackgroundDirective implements OnInit {
 
-  @Input() gender: string;
+  @Input() data: string;
+  @Input() params: object;
   @HostBinding('class')
 
-  customClass  = 'alert-warning';
   constructor(private renderer: Renderer2, private eleRef: ElementRef) {
     this.eleRef.nativeElement.style.position = 'relative';
     this.eleRef.nativeElement.style.padding = '0.75rem 1.25rem';
@@ -19,11 +19,6 @@ export class BackgroundDirective implements OnInit {
   }
 
   ngOnInit() {
-    if (this.gender === 'Female') {
-      this.customClass = 'alert-danger';
-    } else if (this.gender === 'Male') {
-      this.customClass = 'alert-primary';
-    }
-    this.renderer.addClass(this.eleRef.nativeElement, this.customClass);
+    this.renderer.addClass(this.eleRef.nativeElement, this.params[this.data]);
   }
 }

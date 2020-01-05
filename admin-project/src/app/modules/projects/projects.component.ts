@@ -15,8 +15,8 @@ export class ProjectsComponent implements OnInit {
     email: 'info@codevs.tech',
     gender: 'Male',
     university: 'Universidad Mayor de San Andres',
-    picture : 'https://media.licdn.com/dms/image/C4E03AQHvAO8xQN359w/profile-displayphoto-shrink_100_100/0?e=1583971200&v=beta&t=rKnf2RERIkTsyUlp3rkE3dSq5I0a3lQPwwhtm8f05Zg'
-  }
+    picture : 'https://codevs.tech/_next/static/images/LogoCodevsVertical-6c708588315320b17078086bd84dbe49.png'
+  };
   constructor() { }
 
   ngOnInit() {  }

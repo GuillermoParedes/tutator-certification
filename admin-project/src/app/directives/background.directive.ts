@@ -6,9 +6,11 @@ import { Directive, ElementRef, Input, OnInit, HostBinding, Renderer2 } from '@a
 
 export class BackgroundDirective implements OnInit {
 
+  @HostBinding('class')
+
   @Input() data: string;
   @Input() params: object;
-  @HostBinding('class')
+
 
   constructor(private renderer: Renderer2, private eleRef: ElementRef) {
     this.eleRef.nativeElement.style.position = 'relative';

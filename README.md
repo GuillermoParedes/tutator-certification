@@ -32,3 +32,22 @@ For run exercices
     day2 $ node exercice2.js
 ```
 
+
+- Day 3: Fibonacci series
+```ssh
+    day3 $ npm install
+    day3 $ npm run start
+```
+
+
+- Day 4: Angular mini project
+```ssh
+    day4 $ npm install
+    day4 $ npm run start
+```
+
+- Angular Admin Project
+```ssh
+    admin-project $ npm install
+    admin-project $ npm run start
+```

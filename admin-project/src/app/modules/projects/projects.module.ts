@@ -3,21 +3,23 @@ import { CommonModule } from '@angular/common';
 import { Routes, RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 
-import { UserComponent } from './user.component';
+import { ProjectsComponent } from './projects.component';
 import { ListComponent } from './list/list.component';
 import { CardComponent } from 'src/app/components/card/card.component';
-import { BackgroundDirective } from 'src/app/directives/background.directive';
 import { FilterPipe } from 'src/app/utils/filter.pipe';
+import { BackgroundDirective } from 'src/app/directives/background.directive';
+import { CardProjectsComponent } from 'src/app/components/card-projects/card-projects.component';
 
 const routes: Routes = [
   {
     path: '',
     redirectTo: 'list',
     pathMatch: 'full',
+    component: ProjectsComponent,
   },
   {
     path: '',
-    component: UserComponent,
+    component: ProjectsComponent,
     children: [
       {
         path: 'list',
@@ -29,9 +31,10 @@ const routes: Routes = [
 
 @NgModule({
   declarations: [
-    UserComponent,
+    ProjectsComponent,
     ListComponent,
     CardComponent,
+    CardProjectsComponent,
     BackgroundDirective,
     FilterPipe
   ],
@@ -41,4 +44,4 @@ const routes: Routes = [
     RouterModule.forChild(routes),
   ]
 })
-export class UserModule { }
+export class ProjectsModule { }

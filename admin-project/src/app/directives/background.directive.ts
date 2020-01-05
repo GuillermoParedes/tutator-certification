@@ -1,10 +1,10 @@
 import { Directive, ElementRef, Input, OnInit, HostBinding, Renderer2 } from '@angular/core';
 
 @Directive({
-  selector: '[appGender]'
+  selector: '[appBackground]'
 })
 
-export class GenderDirective implements OnInit {
+export class BackgroundDirective implements OnInit {
 
   @Input() gender: string;
   @HostBinding('class')

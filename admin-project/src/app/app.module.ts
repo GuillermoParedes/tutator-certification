@@ -8,14 +8,11 @@ import { AppComponent } from './app.component';
 import { NgxSpinnerModule } from 'ngx-spinner';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { NavbarComponent } from './shared/navbar/navbar.component';
-import { GenderDirective } from './directives/gender.directive';
-import { FilterPipe } from './utils/filter.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent,
-
+    NavbarComponent
   ],
   imports: [
     BrowserModule,

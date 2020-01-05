@@ -12,3 +12,17 @@ export interface PersonInterface {
 export interface UsersInterface {
   users?: Array<PersonInterface>;
 }
+
+export interface ProjectInterface {
+  id: number;
+  name: string;
+  description: string;
+  last_update: string;
+  status: boolean;
+  url: string;
+  picture: string;
+}
+
+export interface ProjectsInterface {
+  projects?: Array<ProjectInterface>;
+}

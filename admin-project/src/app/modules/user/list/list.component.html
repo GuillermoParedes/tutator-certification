@@ -8,7 +8,7 @@
   </div>
 </div>
 <div class="row">
-  <div class="col-sm" *ngFor="let user of users | filter : searchText">
+  <div class="col-sm" *ngFor="let user of users | filter : searchText: 'first_name'">
     <app-card [data]="user"></app-card>
   </div>
 </div>

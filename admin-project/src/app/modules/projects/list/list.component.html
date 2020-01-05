@@ -1,0 +1,14 @@
+<div class="row">
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <span class="input-group-text" id="basic-addon1" (click)="clearFilter()">Clear Search</span>
+    </div>
+    <input id='searchProjects' [(ngModel)]="searchText" type="text" class="form-control" placeholder="Search a project" aria-label="Search an user" aria-describedby="basic-addon1">
+    <span class="filter-clear" *ngIf="searchText.length>0" >X</span>
+  </div>
+</div>
+<div class="row">
+  <div class="col-6" *ngFor="let project of projects | filter : searchText: 'name' ">
+    <app-card-projects [data]="project"></app-card-projects>
+  </div>
+</div>

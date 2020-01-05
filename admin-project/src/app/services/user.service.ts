@@ -13,9 +13,15 @@ export class UserService {
 
   getUsers() {
     return this.httpClient.get('assets/api/users.json')
-    // return this.httpClient.get('http://dummy.restapiexample.com/api/v1/employees')
       .pipe(
         tap(response => console.log('Response Users', response))
+      );
+  }
+
+  getProjects() {
+    return this.httpClient.get('assets/api/projects.json')
+      .pipe(
+        tap(response => console.log('Response Projects', response))
       );
   }
 
